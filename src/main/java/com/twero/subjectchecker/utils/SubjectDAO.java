@@ -7,11 +7,11 @@ package com.twero.subjectchecker.utils;
 
 import com.twero.subjectchecker.model.Subject;
 import java.sql.Connection;
-import java.sql.Driver;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -88,5 +88,13 @@ public class SubjectDAO {
         return subject;
     }
     
+    public List<Subject> getAll(){
+        //TODO
+        return null;
+    }
     
+    public boolean add(final Subject subject){
+        //TODO
+        return false;
+    }
 }
